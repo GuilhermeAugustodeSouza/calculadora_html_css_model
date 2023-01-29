@@ -6,6 +6,7 @@
 main{
     display: flex;
     justify-content: center;
+    align-items: center;
     
     
  }
@@ -29,41 +30,36 @@ main{
     margin-top: 20px;
     box-shadow: 10px 10px 20px;
 }
-.input{
-    margin: 8px;
-    border-radius: 20px;
-    color: #ffffff;
-    margin-top: 20px;
-    
-    
-    }
-    .nome{
+   .nome{
         margin: 8px;
     border-radius: 20px;
     color: #ffffff;
-    margin-top: 20px;
+    margin-top: 40px;
     
     }
     .altura{
         margin: 8px;
     border-radius: 20px;
     color: #ffffff;
-    margin-top: 20px;
+    margin-top: 10px;
     
     }
     .peso{
         margin: 8px;
     border-radius: 20px;
     color: #ffffff;
-    margin-top: 20px;
+    margin-left: 17px;
+    
     
     }
 
 #calcular{
-    margin: 10px;
+    margin: 20px;
     padding: 8px;
-    width: 190px;
-    border-radius: 10px;
+    width: 180px;
+    border-radius: 9px;
+    border: none;
+    
 }
 .result{
     background-color: #ffffff;
@@ -71,5 +67,6 @@ main{
     height: 190px;
     margin-top: 10px;
     border-radius: 10px;
-
+    background-color: #000000;
+    color: rgb(12, 234, 12);
 }
